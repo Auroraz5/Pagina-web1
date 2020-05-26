@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CHROMATIC</title>
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="description" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo-playera chromatic fondo.png" title="CHROMATIC" alt="logo"/></a>
+		</div><!-- end logo -->
+
+		<div id="menu_icon"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html"><svg class="bi bi-house-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+					<path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+				  </svg> HOME</a></li>
+				<li><a href="acerca_de.html"><svg class="bi bi-camera" width="1.4em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path d="M9 5C7.343 5 5 6.343 5 8a4 4 0 0 1 4-4v1z"/>
+					<path fill-rule="evenodd" d="M14.333 3h-2.015A5.97 5.97 0 0 0 9 2a5.972 5.972 0 0 0-3.318 1H1.667C.747 3 0 3.746 0 4.667v6.666C0 12.253.746 13 1.667 13h4.015c.95.632 2.091 1 3.318 1a5.973 5.973 0 0 0 3.318-1h2.015c.92 0 1.667-.746 1.667-1.667V4.667C16 3.747 15.254 3 14.333 3zM1.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM9 13A5 5 0 1 0 9 3a5 5 0 0 0 0 10z"/>
+					<path d="M2 3a1 1 0 0 1 1-1h1a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1z"/>
+				  </svg> CONOCE MAS...</a></li>
+				<li><a href="biografia.html"><svg class="bi bi-film" width="1.4em" height="1.4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+				  </svg> SEMBLANZA</a></li>
+				<li><a href="portafolio.html"><svg class="bi bi-briefcase-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+					<path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v1.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 5.884V4.5zm5-2A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+				  </svg> PORTAFOLIO</a></li>
+				<li><a href="contacto.html"><svg class="bi bi-person-square" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+					<path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg> CONTACTO</a></li>
+                  <li><a href="Registrate.html"><svg class="bi bi-emoji-laughing" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+					<path fill-rule="evenodd" d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5z"/>
+					<path d="M7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+				  </svg> USUARIO</a></li>
+			</ul>
+		</nav><!-- end navigation menu -->
+
+		<div class="footer clearfix">
+			<div class="rights">
+                <p>Copyright © 2020 CHROMATIC.</p>
+				<p>fotografia de <a href="">Nahum Asuncion Hernandez Daza</a></p>
+			</div><!-- end rights -->
+		</div ><!-- end footer -->
+	</header><!-- end header -->
+
+	<section class="main clearfix">
+
+		<section class="top">	
+			<div class="wrapper content_header clearfix">
+				<div class="work_nav">
+							
+					<ul class="btn clearfix">
+						<li><a href="paquetes y ofertas.html" class="previous" data-title="Previous"></a></li>
+						<li><a href="index.html" class="grid" data-title="Portfolio"></a></li>
+						<li><a href="acerca_de.html" class="next" data-title="Next"></a></li>
+					</ul>							
+					
+				</div><!-- end work_nav -->
+				<h1 class="title">registrate</h1>
+			</div>		
+		</section><!-- end top -->
+
+		<section class="wrapper">
+			<div class="content">
+                <div class="form1">
+                    <p>LLENALO Y REGISTRATE</p>
+                    <form class="login-form" action="php/consultas.php" method="post">
+                        <div class="form-group row">
+                          <label for="inputEmail3" class="col-sm-2 col-form-label">Correo electronico</label>
+                          <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" name="iCorreo">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="imputname">Nombre completo</label>
+                            <div>
+                            <input type="text" name="iNombre" class="form-control" id="nombre" aria-describedby="name">
+                            </div>
+                          </div>
+                        <div class="form-group row">
+                          <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+                          <div class="col-sm-10">
+                            <input type="password" name="iContraseña" class="form-control" id="inputPassword3">
+                          </div>
+                        </div>
+                        <fieldset class="form-group">
+                          <div class="row">
+                            <legend class="col-form-label col-sm-2 pt-0">¿Desea recibir notificaciones?</legend>
+                            <div class="col-sm-10">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                  Si
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                  No
+                                </label>
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div class="form-check mb-2">
+                              <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                              <label class="form-check-label" for="autoSizingCheck">
+                                Recordar 
+                              </label>
+                            </div>
+                          </div>
+                        </fieldset>
+                        <div class="form-group row">
+                          <div class="col-sm-2">¿acepta los terminos y condiciones?</div>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck1">
+                              <label class="form-check-label" for="gridCheck1">
+                                Si acepto 
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                            <button type="submit" name="enviar" class="btn btn-primary" value="enviar">Enviar</button>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                            <a href="modificar.html">ya me registre</a>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+                <article>
+                 <div class="container">
+                    <div class="ventajas">
+                        <h3>VENTAJAS DE REGISTRARTE</h3>
+                         <p>Registrarte es una buena opción, si te quieres sentir 
+                            más seguro lee <a href="acerca_de.html">terminos y condiciones</a>,
+                            si te  registras obtendras los siguientes beneficios. 
+                        </p>
+                        <ul>
+                            <li>
+                                Promociones exclusivas
+                            </li>
+                            <li>
+                                Notificaciones de nuevas promociones (esta opcion la se puede desactivar)
+                            </li>
+                            <li>
+                                Paquetes exclusivos 
+                            </li>
+                            <li>
+                                Más opciones de compra
+                            </li>
+                            <li>
+                                Mas formatos de los que elegir 
+                            </li>
+                        </ul>
+                        <br>
+                        <p>Tambien revisa nuestros paquetes y consulta
+                            su precio con nostros en <a href="contacto.html">contacto</a></p>
+                        
+                    </div>
+                </div>
+                </article>
+			</div><!-- end content -->
+		</section>
+	</section><!-- end main -->
+	
+</body>
+</html>
